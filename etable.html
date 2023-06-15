@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Marketplace</title>
+        <!-- Front-End Styles -->
+        <link rel="stylesheet" href="etable.css">
+        <link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <!-- Page Content -->
+    <body>
+        <div class="container">
+            <div class="text">
+                <h1 style="font-weight: bold;">Edit CinemaConnect Marketplace</h1>
+                <h5>Click on the green + to insert a new entry</h5>
+                <h5>Click on any entry data value to edit that value</h5>
+                <h5>Click on the blue arrows to move an entry up or down a row, depending on the respective arrow you click</h5>
+                <h5>Click on the red x to remove any entry</h5>
+            </div>
+            <br>
+            <div id="table" class="table-editable">
+              <h4>Add Product <span class="table-add glyphicon glyphicon-plus"></span></h4>
+              <table class="table">
+                <!-- Header Row -->
+                <tr>
+                  <th class="data">ID</th>
+                  <th class="data">Name</th>
+                  <th class="data">Price</th>
+                  <th class="data">Brand</th>
+                  <th class="data">Category</th>
+                  <th>Move Up/Down</th>
+                  <th>Delete</th>
+                </tr>
+                <!-- Data -->
+                <tr><!--Row1-->
+                  <td contenteditable="true" class="data">SWI1</td>
+                  <td contenteditable="true" class="data">Star Wars Han Solo Figure</td>
+                  <td contenteditable="true" class="data">$10</td>
+                  <td contenteditable="true" class="data">Star Wars</td>
+                  <td contenteditable="true" class="data">Figures</td>
+                  <td>
+                    <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                    <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                  </td>
+                  <td>
+                    <span class="table-remove glyphicon glyphicon-remove"></span>
+                  </td>
+                </tr>
+                <tr><!--Row2-->
+                    <td contenteditable="true" class="data">MSI14</td>
+                    <td contenteditable="true" class="data">Marvel's Spider-Man Poster</td>
+                    <td contenteditable="true" class="data">$9</td>
+                    <td contenteditable="true" class="data">Marvel</td>
+                    <td contenteditable="true" class="data">Posters</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row3-->
+                    <td contenteditable="true" class="data">DPI23</td>
+                    <td contenteditable="true" class="data">Disney's Little Mermaid Backpack</td>
+                    <td contenteditable="true" class="data">$35</td>
+                    <td contenteditable="true" class="data">Disney</td>
+                    <td contenteditable="true" class="data">Backpacks</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row4-->
+                    <td contenteditable="true" class="data">DNDI8</td>
+                    <td contenteditable="true" class="data">Dungeons and Dragons: Dragon Logo Men's T-Shirt</td>
+                    <td contenteditable="true" class="data">$24</td>
+                    <td contenteditable="true" class="data">Dungeons and Dragons</td>
+                    <td contenteditable="true" class="data">Clothing</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row5-->
+                    <td contenteditable="true" class="data">MSI56</td>
+                    <td contenteditable="true" class="data">Spider-Man 6-Pack Crew Socks</td>
+                    <td contenteditable="true" class="data">$20</td>
+                    <td contenteditable="true" class="data">Marvel</td>
+                    <td contenteditable="true" class="data">Clothing</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row6-->
+                    <td contenteditable="true" class="data">DCI28</td>
+                    <td contenteditable="true" class="data">The Flash Movie McFarlane Figure</td>
+                    <td contenteditable="true" class="data">$20</td>
+                    <td contenteditable="true" class="data">DC</td>
+                    <td contenteditable="true" class="data">Figures</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row7-->
+                    <td contenteditable="true" class="data">TFI2</td>
+                    <td contenteditable="true" class="data">Transformers Bumblebee POP! figure</td>
+                    <td contenteditable="true" class="data">$15</td>
+                    <td contenteditable="true" class="data">Transformers</td>
+                    <td contenteditable="true" class="data">Figures</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row8-->
+                    <td contenteditable="true" class="data">MSI28</td>
+                    <td contenteditable="true" class="data">Marvel's Guardians of the Galaxy Cosmo Plush</td>
+                    <td contenteditable="true" class="data">$20</td>
+                    <td contenteditable="true" class="data">Marvel</td>
+                    <td contenteditable="true" class="data">Plushies</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row9-->
+                    <td contenteditable="true" class="data">BI3</td>
+                    <td contenteditable="true" class="data">Barbie the Movie Ken Doll</td>
+                    <td contenteditable="true" class="data">$23</td>
+                    <td contenteditable="true" class="data">Barbie</td>
+                    <td contenteditable="true" class="data">Figures</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                  <tr> <!--Row10-->
+                    <td contenteditable="true" class="data">DI15</td>
+                    <td contenteditable="true" class="data">Disney Lilo & Stitch Plush</td>
+                    <td contenteditable="true" class="data">$18</td>
+                    <td contenteditable="true" class="data">Disney</td>
+                    <td contenteditable="true" class="data">Plushies</td>
+                    <td>
+                      <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                      <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                    </td>
+                    <td>
+                      <span class="table-remove glyphicon glyphicon-remove"></span>
+                    </td>
+                  </tr>
+                <!-- This is our clonable row -->
+                <tr class="hide">
+                  <td contenteditable="true" class="data">Null(e.g TFI9)</td>
+                  <td contenteditable="true" class="data">Null(e.g Transformers Optimus Prime Figure)</td>
+                  <td contenteditable="true" class="data">Null(e.g $14)</td>
+                  <td contenteditable="true" class="data">Null(e.g Transformers)</td>
+                  <td contenteditable="true" class="data">Null(e.g Figures)</td>
+                  <td>
+                    <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                    <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                  </td>
+                  <td>
+                    <span class="table-remove glyphicon glyphicon-remove"></span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            
+            <button id="export-btn" class="btn btn-primary">Export Data</button>
+            <p id="export"></p>
+          </div>
+        <!-- Back-End Scripts -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js"></script>
+        <script src="etable.js"></script>
+    </body>
+</html>
