@@ -8,6 +8,16 @@
   border-radius: 1.5em;
 }
 
+.link{
+  background-color: #ffffff;
+  color: #2E1CFF;
+  border: none;
+  font-weight: bold;
+  border-radius: 3em;
+  padding: 1% 2.5% 1% 2.5%;
+  text-align: right;
+}
+
 .table-editable {
   position: relative;
   
@@ -53,4 +63,8 @@
   border-radius: 3em;
   padding: 1.5% 2.5% 1.5% 2.5%;
   color: #ffffff;
+}
+
+#export-btn:hover{
+  background-color: #2214b9;
 }
